@@ -64,6 +64,7 @@
      :compiler     {:main          tournal.runner
                     :output-to     "resources/public/js/compiled/test.js"
                     :output-dir    "resources/public/js/compiled/test/out"
+                    :target        :nodejs
                     :optimizations :none}}
     ]}
 
