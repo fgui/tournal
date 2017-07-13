@@ -21,3 +21,7 @@
   (re-frame/dispatch-sync [:initialize-db])
   (dev-setup)
   (mount-root))
+
+(comment
+ (js/alert "connected...")
+  )
